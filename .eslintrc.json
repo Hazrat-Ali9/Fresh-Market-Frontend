@@ -1,7 +1,7 @@
 // {
 //   "extends": "next/core-web-vitals"
 // }
-
+// eslintrc json
 {
   "extends": ["next/core-web-vitals", "eslint:recommended"]
 }
