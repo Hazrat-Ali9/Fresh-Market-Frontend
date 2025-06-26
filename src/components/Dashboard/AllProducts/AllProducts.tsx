@@ -1,6 +1,6 @@
 import { FlashSaleItem } from "@/components/Home/FlashSale/FlashSale";
 import Image from "next/image";
-
+// all product
 const AllProducts = async () => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BACKEND_API_URL}/products`,
