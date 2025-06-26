@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keyframes for spin animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Utility class for spin animation */
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@layer components {
+  .container {
+    @apply max-w-full w-[1440px] mx-auto md:px-16 px-5;
+  }
+  /* 55a630 38b000*/
+  .btn {
+    @apply bg-[#55a630] text-[#ffffff]  text-center  py-4 px-4 rounded-lg hover:bg-[#74d448] duration-300 text-[16px] font-bold;
+  }
+  /* form control  */
+  .form-control {
+    @apply mb-6 space-y-2.5;
+  }
+  .auth-label {
+    @apply leading-[138%] lg:text-lg;
+  }
+  .auth-input {
+    @apply w-full p-3 bg-gray-300 border border-white/20 rounded-md focus:outline-none focus:border-indigo-500;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    @apply md:text-5xl text-2xl font-extrabold;
+  }
+}

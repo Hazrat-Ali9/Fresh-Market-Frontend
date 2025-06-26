@@ -1,0 +1,30 @@
+.slide1 {
+  background-image: url("../../../assets/images/b1.jpg");
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: cover;
+}
+.slide2 {
+  background-image: url("../../../assets/images/b2.jpg");
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: cover;
+}
+.slide3 {
+  background-image: url("../../../assets/images/b3.webp");
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: cover;
+}
+.slide4 {
+  background-image: url("../../../assets/images/v4.jpg");
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: cover;
+}
+.slide5 {
+  background-image: url("../../../assets/images/v5.jpg");
+  background-repeat: no-repeat;
+  width: 100% !important;
+  background-size: cover;
+}
