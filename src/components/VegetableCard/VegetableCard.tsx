@@ -2,7 +2,7 @@ import React from "react";
 import { VegetableCardProps } from "../Home/FlashSale/FlashSale";
 import Link from "next/link";
 import Image from "next/image";
-// Vegetable
+// Vegetable Card
 const VegetableCard: React.FC<VegetableCardProps> = ({ item }) => {
   // Parse discountPercentage as a number
   const discountPercentage = parseFloat(item?.discountPercentage);
