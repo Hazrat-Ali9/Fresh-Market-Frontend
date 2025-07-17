@@ -6,7 +6,7 @@ import ffmlogo from "@/assets/images/ffmlogo.png";
 import Image from "next/image";
 import { IoCartOutline } from "react-icons/io5";
 import CartModal from "../CartModal/CartModal";
-
+// Navbar 
 const Navbar = () => {
   // State variable to toggle mobile menu
   const [nav, setNav] = useState(false);
