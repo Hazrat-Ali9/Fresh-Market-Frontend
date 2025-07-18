@@ -18,7 +18,7 @@ export interface FlashSaleItem {
   des3: string;
   fullDes: string;
 }
-
+// Flash Sale
 export interface VegetableCardProps {
   item: FlashSaleItem;
 }
