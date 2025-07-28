@@ -2,7 +2,7 @@ import Image from "next/image";
 import expressDelivery from "@/assets/images/expressDelivery.png";
 import cashOnDelivery from "@/assets/images/cashOnDelivery.png";
 import freeDelivery from "@/assets/images/freeDelivery.png";
-
+// Our features
 const OurFeature = () => {
   return (
     <>
