@@ -1,5 +1,5 @@
 import React from "react";
-
+// Product checkout
 import { FaPlus } from "react-icons/fa";
 import { LuMinus } from "react-icons/lu";
 import { RiDeleteBin6Line } from "react-icons/ri";
