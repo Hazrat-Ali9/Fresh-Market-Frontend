@@ -3,7 +3,7 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { FaMoneyCheck } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
-
+// shipping form
 
 type IInput = {
   name: string;
