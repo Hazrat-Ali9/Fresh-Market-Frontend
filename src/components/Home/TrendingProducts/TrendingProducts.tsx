@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { FlashSaleItem } from "../FlashSale/FlashSale";
 import VegetableCard from "@/components/VegetableCard/VegetableCard";
-
+// Trending Products
 interface ratingData {
   rating: string;
 }
