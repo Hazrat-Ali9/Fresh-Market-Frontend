@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-// home banner
+// Home banner
 import "./Banner.css";
 
 const HomeBanner = () => {
