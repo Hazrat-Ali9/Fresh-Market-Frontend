@@ -9,7 +9,7 @@ interface CartModalProps {
   cartOpen: boolean;
   onClose: () => void;
 }
-// Card model
+// Cart model
 const CartModal: React.FC<CartModalProps> = ({ cartOpen, onClose }) => {
   return (
     <>
